@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+      <pattern># LECTURE NOTES #</pattern>
+      <template>Shall i list out branches for <set name = "topic">lecture notes</set>proceed with yes or no</template>  
+   </category>
+   <topic name = "lecture notes">
+   <category>
+      <pattern>YES</pattern>
+      <that>Shall i list out branches for lecture notes proceed with yes or no</that>
+       <template>
+           <li>CSE</li>
+           <li>ECE</li>
+           <li>EEE</li>
+           <li>CIVIL</li>
+           <li>MECH</li>
+           <li>IT</li>
+       </template>
+  </category> 
+  <category>
+      <pattern>NO</pattern>
+      <that>Shall i list out branches for lecture notes proceed with yes or no</that>
+      <template>ok, as you command</template>
+   </category>
+    <category>
+       <pattern>CSE</pattern>
+       <template>We listed out 4 years lecture notes proceed with yes or no</template>
+   </category>
+   <category>
+       <pattern>YES</pattern>
+       <that>We listed out 4 years lecture notes proceed with yes or no</that>
+       <template><li><a href="http://notes.specworld.in/jntua-b-tech-1st-year-cse-branch-notes-r13-r15/" target="_blank">1st Year</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-2-1-study-materials-notes/" target="_blank">2-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-2-2-study-materials-notes/" target="_blank">2-2</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-3-1-study-materials-notes/" target="_blank">3-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-3-2-study-materials-notes/" target="_blank">3-2</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-4-1-study-materials-notes/" target="_blank">4-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-4-2-materials-notes/" target="_blank">4-2</a></li>
+       </template>
+   </category>
+   <category>
+      <pattern>NO</pattern>
+      <that>We listed out 4 years lecture notes proceed with yes or no</that>
+      <template>ok</template>
+   </category>
+   <category>
+       <pattern>ECE</pattern>
+       <template>We listed out 4 years lecture notes proceed with yes or no</template>
+   </category>
+   <category>
+       <pattern>YES</pattern>
+       <that>We listed out 4 years lecture notes proceed with yes or no</that>
+       <template><li><a href="http://notes.specworld.in/jntua-b-tech-1st-year-cse-branch-notes-r13-r15/">1st Year</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-2-1-study-materials-notes/" target="_blank">2-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-2-2-study-materials-notes/" target="_blank">2-2</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-3-1-study-materials-notes/" target="_blank">3-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-3-2-study-materials-notes/" target="_blank">3-2</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-4-1-study-materials-notes/" target="_blank">4-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-4-2-materials-notes/" target="_blank">4-2</a></li>
+       </template>
+   </category>
+   <category>
+      <pattern>NO</pattern>
+      <that>We listed out 4 years lecture notes proceed with yes or no</that>
+      <template>ok</template>
+   </category>
+   <category>
+       <pattern>EEE</pattern>
+       <template>We listed out 4 years lecture notes proceed with yes or no</template>
+   </category>
+   <category>
+       <pattern>YES</pattern>
+       <that>We listed out 4 years lecture notes proceed with yes or no</that>
+       <template><li><a href="http://notes.specworld.in/jntua-b-tech-1st-year-cse-branch-notes-r13-r15/" target="_blank">1st Year</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-2-1-study-materials-notes/" target="_blank">2-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-2-2-study-materials-notes/" target="_blank">2-2</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-3-1-study-materials-notes/" target="_blank">3-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-3-2-study-materials-notes/" target="_blank">3-2</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-4-1-study-materials-notes/" target="_blank">4-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-4-2-materials-notes/" target="_blank">4-2</a></li>
+       </template>
+   </category>
+   <category>
+      <pattern>NO</pattern>
+      <that>We listed out 4 years lecture notes proceed with yes or no</that>
+      <template>ok</template>
+   </category>
+   <category>
+       <pattern>CIVIL</pattern>
+       <template>We listed out 4 years lecture notes proceed with yes or no</template>
+   </category>
+   <category>
+       <pattern>YES</pattern>
+       <that>We listed out 4 years lecture notes, proceed with yes or no</that>
+       <template><li><a href="http://notes.specworld.in/jntua-b-tech-1st-year-cse-branch-notes-r13-r15/" target="_blank">1st Year</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-2-1-study-materials-notes/" target="_blank">2-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-2-2-study-materials-notes/" target="_blank">2-2</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-3-1-study-materials-notes/" target="_blank">3-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-3-2-study-materials-notes/" target="_blank">3-2</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-4-1-study-materials-notes/" target="_blank">4-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-4-2-materials-notes/" target="_blank">4-2</a></li>
+       </template>
+   </category>
+   <category>
+      <pattern>NO</pattern>
+      <that>We listed out 4 years lecture notes proceed with yes or no</that>
+      <template>ok</template>
+   </category>
+   <category>
+       <pattern>MECH</pattern>
+       <template>We listed out 4 years lecture notes proceed with yes or no</template>
+   </category>
+   <category>
+       <pattern>YES</pattern>
+       <that>We listed out 4 years lecture notes proceed with yes or no</that>
+       <template><li><a href="http://notes.specworld.in/jntua-b-tech-1st-year-cse-branch-notes-r13-r15/" target="_blank">1st Year</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-2-1-study-materials-notes/" target="_blank">2-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-2-2-study-materials-notes/" target="_blank">2-2</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-3-1-study-materials-notes/" target="_blank">3-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-3-2-study-materials-notes/" target="_blank">3-2</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-4-1-study-materials-notes/" target="_blank">4-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-4-2-materials-notes/" target="_blank">4-2</a></li>
+       </template>
+   </category>
+   <category>
+      <pattern>NO</pattern>
+      <that>We listed out 4 years lecture notes proceed with yes or no</that>
+      <template>ok</template>
+   </category>
+   <category>
+       <pattern>IT</pattern>
+       <template>We listed out 4 years lecture notes proceed with yes or no</template>
+   </category>
+   <category>
+       <pattern>YES</pattern>
+       <that>We listed out 4 years lecture notes, proceed with yes or no</that>
+       <template><li><a href="http://notes.specworld.in/jntua-b-tech-1st-year-cse-branch-notes-r13-r15/" target="_blank">1st Year</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-2-1-study-materials-notes/" target="_blank">2-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-2-2-study-materials-notes/" target="_blank">2-2</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-3-1-study-materials-notes/" target="_blank">3-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-3-2-study-materials-notes/" target="_blank">3-2</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-4-1-study-materials-notes/" target="_blank">4-1</a></li>
+          <li><a href="https://www.alljntuworld.in/jntua-4-2-materials-notes/" target="_blank">4-2</a></li>
+       </template>
+   </category>
+   <category>
+      <pattern>NO</pattern>
+      <that>We listed out 4 years lecture notes proceed with yes or no</that>
+      <template>ok</template>
+   </category>
+  </topic>
+</aiml>

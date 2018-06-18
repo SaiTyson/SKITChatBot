@@ -1,0 +1,86 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml>
+   
+   <category>
+      <pattern># syllabus #</pattern>
+      <template>Shall i list out regulations for btech<set name = "topic">syllabus</set> proceed with yes or no</template>  
+   </category>
+   <topic name = "syllabus">
+
+   <category>
+      <pattern>YES</pattern>
+      <that>Shall i list out regulations for btech syllabus proceed with yes or no</that>
+       <template>
+           <li>R09</li>
+           <li>R13</li>
+           <li>R15</li>
+       </template>
+   </category> 
+   <category>
+      <pattern>NO</pattern>
+      <that>Shall i list out regulations for btech syllabus proceed with yes or no</that>
+      <template>ok, as you command</template>
+   </category> 
+   <category>
+       <pattern>R09</pattern>
+       <template>We listed out R09 syllabus for all branches proceed with yes or no</template>
+   </category>
+   <category>
+       <pattern>YES</pattern>
+       <that>We listed out R09 syllabus for all branches proceed with yes or no</that>
+       <template><li><a href="http://jntuforum.com/files/pdf/B.Tech.%20-%20R09%20-%20CSE%20-%20Academic%20Regulations%20Syllabus_1.pdf" target="_blank">CSE</a></li>
+          <li><a href="http://jntuforum.com/files/pdf/B.Tech.%20-%20R09%20-%20ECE%20-%20Academic%20Regulations%20Syllabus%20(1).pdf" target="_blank">ECE</a></li>
+          <li><a href="http://jntuforum.com/files/pdf/B.Tech.%20-%20R09%20-%20E.Con.E%20-%20Academic%20Regulations%20Syllabus_1.pdf" target="_blank">EEE</a></li>
+          <li><a href="http://jntuforum.com/files/pdf/B.Tech.%20-%20R09%20-%20Civil%20Engg%20-%20Academic%20Regulations%20Syllabus.pdf" target="_blank">CIVIL</a></li>
+          <li><a href="http://jntuforum.com/files/pdf/B.Tech.%20-%20R09%20-%20Mech%20Engg%20-%20Academic%20Regulations%20Syllabus.pdf" target="_blank">MECH</a></li>
+          <li><a href="http://jntuforum.com/files/pdf/B.Tech.%20-%20R09%20-%20IT%20-%20Regulations%20Syllabus.pdf" target="_blank">IT</a></li>
+       </template>
+   </category>
+      <category>
+      <pattern>NO</pattern>
+      <that>We listed out R09 syllabus for all branches proceed with yes or no</that>
+      <template>ok, as you command</template>
+   </category> 
+   <category>
+       <pattern>R13</pattern>
+       <template>We listed out R13 syllabus for all branches proceed with yes or no</template>
+   </category>
+   <category>
+       <pattern>YES</pattern>
+       <that>We listed out R13 syllabus  for all branches proceed with yes or no</that>
+       <template><li><a href="https://jntuaupdates.com/wp-content/uploads/2015/04/Jntua-CSE-R13-Syllabus.pdf" target="_blank">CSE</a></li>
+          <li><a href="https://jntuaupdates.com/wp-content/uploads/2015/04/Jntua-ECE-R13-Syllabus.pdf" target="_blank">ECE</a></li>
+          <li><a href="https://jntuaupdates.com/wp-content/uploads/2015/04/Jntua-EEE-R13-Syllabus.pdf" target="_blank">EEE</a></li>
+          <li><a href="https://jntuaupdates.com/wp-content/uploads/2015/04/Jntua-Civil-R13-Syllabus.pdf" target="_blank">CIVIL</a></li>
+          <li><a href="https://jntuaupdates.com/wp-content/uploads/2015/04/Jntua-Mechanical-R13-Syllabus.pdf" target="_blank">MECH</a></li>
+       </template>
+   </category>
+   <category>
+      <pattern>NO</pattern>
+      <that>We listed out R13 syllabus  for all branches proceed with yes or no</that>
+      <template>ok</template>
+   </category> 
+   <category>
+       <pattern>R15</pattern>
+       <template>We listed out R15 syllabus  for all branches proceed with yes or no</template>
+   </category>
+    <category>
+       <pattern>YES</pattern>
+       <that>We listed out R15 syllabus for all branches proceed with yes or no</that>
+       <template>
+         <li><a href="https://jntuaupdates.com/wp-content/uploads/2015/04/Jntua-CSE-R13-Syllabus.pdf" target="_blank">CSE</a></li>
+         <li><a href="https://jntuaupdates.com/wp-content/uploads/2015/04/Jntua-ECE-R13-Syllabus.pdf" target="_blank">ECE</a></li>
+         <li><a href="https://jntuaupdates.com/wp-content/uploads/2015/04/Jntua-EEE-R13-Syllabus.pdf" target="_blank">EEE</a></li>
+         <li><a href="https://jntuaupdates.com/wp-content/uploads/2015/04/Jntua-Civil-R13-Syllabus.pdf" target="_blank">CIVIL</a></li>
+         <li><a href="https://jntuaupdates.com/wp-content/uploads/2015/04/Jntua-Mechanical-R13-Syllabus.pdf" target="_blank">MECH</a></li>
+       </template>
+   </category>
+   <category>
+      <pattern>NO</pattern>
+      <that>We listed out R15 syllabus for all branches proceed with yes or no</that>
+      <template>ok</template>
+   </category> 
+ 
+  </topic> 
+
+</aiml>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml>
+<category>
+<pattern>WHO IS THE HOD OF <set>branch</set> #</pattern>
+<template><map name="branch2hods"> <star/></map> is the HOD of
+<star/></template>
+</category>
+<category><pattern>WHO IS THE HOD OF *</pattern>
+<template><star/> branch is not in SKIT College</template>
+</category> 
+<category>
+<pattern>HOD OF <set>branch</set> #</pattern>
+<template><map name="branch2hods"> <star/></map> is the HOD of
+<star/></template>
+</category>
+<category><pattern>HOD OF *</pattern>
+<template><star/> branch is not in SKIT College</template>
+</category> 
+<category>
+<pattern># <set>branch</set> # HOD #</pattern>
+<template><map name="branch2hods"> <star index="2"/></map> is the HOD of
+<star index="2"/></template>
+</category>
+<category><pattern># HOD #</pattern>
+<template> Specified branch is not in SKIT College or i don't know about that.</template>
+</category> 
+<category>
+<pattern># HOD # <set>branch</set> #</pattern>
+<template><map name="branch2hods"> <star index="3"/></map> is the HOD of
+<star index="3"/></template>
+</category>
+</aiml>

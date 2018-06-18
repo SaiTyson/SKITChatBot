@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>* 1ST YEAR LECTURE NOTES *</pattern>
+    <template>kindly visit http://notes.specworld.in/jntua-b-tech-1st-year-cse-branch-notes-r13-r15/</template>
+  </category>
+  <category>
+    <pattern>* 1ST YEAR LECTURE NOTES</pattern>
+    <template><srai>* 1ST YEAR LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>1ST YEAR LECTURE NOTES *</pattern>
+    <template><srai>* 1ST YEAR LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>1ST YEAR LECTURE NOTES</pattern>
+    <template><srai>* 1ST YEAR LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 1ST YEAR</pattern>
+    <template><srai>* 1ST YEAR LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>* 2ND YEAR 1ST SEM LECTURE NOTES *</pattern>
+    <template>kindly visit https://www.alljntuworld.in/jntua-2-1-study-materials-notes/</template>
+  </category>
+  <category>
+    <pattern>* 2ND YEAR 1ST SEM LECTURE NOTES</pattern>
+    <template><srai>* 2ND YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>2ND YEAR 1ST SEM LECTURE NOTES *</pattern>
+    <template><srai>* 2ND YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>2ND YEAR 1ST SEM LECTURE NOTES</pattern>
+    <template><srai>* 2ND YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 2ND YEAR 1ST SEM CIVIL </pattern>
+    <template><srai>* 2ND YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 2ND YEAR 1ST SEM EEE </pattern>
+    <template><srai>* 2ND YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 2ND YEAR 1ST SEM MECH </pattern>
+    <template><srai>* 2ND YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 2ND YEAR 1ST SEM ECE </pattern>
+    <template><srai>* 2ND YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 2ND YEAR 1ST SEM CSE </pattern>
+    <template><srai>* 2ND YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 2ND YEAR 1ST SEM IT </pattern>
+    <template><srai>* 2ND YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>* 2ND YEAR 2ND SEM LECTURE NOTES *</pattern>
+    <template>kindly visit https://www.alljntuworld.in/jntua-2-2-study-materials-notes/</template>
+  </category>
+<category>
+    <pattern>* 2ND YEAR 2ND SEM LECTURE NOTES</pattern>
+    <template><srai>* 2ND YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category><category>
+    <pattern>2ND YEAR 2ND SEM LECTURE NOTES *</pattern>
+    <template><srai>* 2ND YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>2ND YEAR 2ND SEM LECTURE NOTES</pattern>
+    <template><srai>* 2ND YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+   <category>
+    <pattern>LECTURE NOTES FOR 2ND YEAR 2ND SEM CIVIL </pattern>
+    <template><srai>* 2ND YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 2ND YEAR 2ND SEM EEE </pattern>
+    <template><srai>* 2ND YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 2ND YEAR 2ND SEM MECH </pattern>
+    <template><srai>* 2ND YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 2ND YEAR 2ND SEM ECE </pattern>
+    <template><srai>* 2ND YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 2ND YEAR 2ND SEM CSE </pattern>
+    <template><srai>* 2ND YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 2ND YEAR 2ND SEM IT </pattern>
+    <template><srai>* 2ND YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>* 3RD YEAR 1ST SEM LECTURE NOTES *</pattern>
+    <template>kindly visit https://www.alljntuworld.in/jntua-3-1-study-materials-notes/</template>
+  </category>
+  <category>
+    <pattern>* 3RD YEAR 1ST SEM LECTURE NOTES</pattern>
+    <template><srai>* 3RD YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>3RD YEAR 1ST SEM LECTURE NOTES *</pattern>
+    <template><srai>* 3RD YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>3RD YEAR 1ST SEM LECTURE NOTES</pattern>
+    <template><srai>* 3RD YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 3RD YEAR 1ST SEM CIVIL </pattern>
+    <template><srai>* 3RD YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 3RD YEAR 1ST SEM EEE </pattern>
+    <template><srai>* 3RD YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 3RD YEAR 1ST SEM Mech </pattern>
+    <template><srai>* 3RD YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 3RD YEAR 1ST SEM ECE </pattern>
+    <template><srai>^ 3RD YEAR 1ST SEM LECTURE NOTES ^</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 3RD YEAR 1ST SEM CSE </pattern>
+    <template><srai>* 3RD YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 3RD YEAR 1ST SEM IT </pattern>
+    <template><srai>* 3RD YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>* 3RD YEAR 2ND SEM LECTURE NOTES *</pattern>
+    <template>kindly visit https://www.alljntuworld.in/jntua-3-2-study-materials-notes/</template>
+  </category>
+  <category>
+    <pattern>* 3RD YEAR 2ND SEM LECTURE NOTES</pattern>
+    <template><srai>* 3RD YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>3RD YEAR 2ND SEM LECTURE NOTES *</pattern>
+    <template><srai>* 3RD YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>3RD YEAR 2ND SEM LECTURE NOTES</pattern>
+    <template><srai>* 3RD YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 3RD YEAR 2ND SEM CIVIL </pattern>
+    <template><srai>* 3RD YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 3RD YEAR 2ND SEM EEE </pattern>
+    <template><srai>* 3RD YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 3RD YEAR 2ND SEM MECH </pattern>
+    <template><srai>* 3RD YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 3RD YEAR 2ND SEM ECE </pattern>
+    <template><srai>* 3RD YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 3RD YEAR 2ND SEM CSE </pattern>
+    <template><srai>* 3RD YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 3RD YEAR 2ND SEM IT </pattern>
+    <template><srai>* 3RD YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>* 4TH YEAR 1ST SEM LECTURE NOTES *</pattern>
+    <template>kindly visit https://www.alljntuworld.in/jntua-4-1-study-materials-notes/</template>
+  </category>
+  <category>
+    <pattern>* 4TH YEAR 1ST SEM LECTURE NOTES</pattern>
+    <template><srai>* 4TH YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>4TH YEAR 1ST SEM LECTURE NOTES *</pattern>
+    <template><srai>* 4TH YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>4TH YEAR 1ST SEM LECTURE NOTES</pattern>
+    <template><srai>* 4TH YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 4TH YEAR 1ST SEM CIVIL </pattern>
+    <template><srai>* 4TH YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 4TH YEAR 1ST SEM EEE </pattern>
+    <template><srai>* 4TH YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 4TH YEAR 1ST SEM MECH </pattern>
+    <template><srai>* 4TH YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 4TH YEAR 1ST SEM ECE </pattern>
+    <template><srai>* 4TH YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 4TH YEAR 1ST SEM CSE </pattern>
+    <template><srai>* 4TH YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 4TH YEAR 1ST SEM IT </pattern>
+    <template><srai>* 4TH YEAR 1ST SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>* 4TH YEAR 2ND SEM LECTURE NOTES *</pattern>
+    <template>kindly visit https://www.alljntuworld.in/jntua-4-2-materials-notes/</template>
+  </category>
+  <category>
+    <pattern>* 4TH YEAR 2ND SEM LECTURE NOTES</pattern>
+    <template><srai>* 4TH YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>4TH YEAR 2ND SEM LECTURE NOTES *</pattern>
+    <template><srai>* 4TH YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>4TH YEAR 2ND SEM LECTURE NOTES</pattern>
+    <template><srai>* 4TH YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 4TH YEAR 2ND SEM CIVIL </pattern>
+    <template><srai>* 4TH YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 4TH YEAR 2ND SEM EEE </pattern>
+    <template><srai>* 4TH YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 4TH YEAR 2ND SEM MECH </pattern>
+    <template><srai>* 4TH YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 4TH YEAR 2ND SEM ECE </pattern>
+    <template><srai>* 4TH YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 4TH YEAR 2ND SEM CSE </pattern>
+    <template><srai>* 4TH YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  <category>
+    <pattern>LECTURE NOTES FOR 4TH YEAR 2ND SEM IT </pattern>
+    <template><srai>* 4TH YEAR 2ND SEM LECTURE NOTES *</srai></template>
+  </category>
+  
+</aiml>

@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head lang="en">
+        <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chatbot</title>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="static/jquery.min.js" />
+        <link type="text/css" rel="stylesheet" href="static/bootstrap.min.css" />
+        <link type="text/css" rel="stylesheet" href="static/font-awesome.min.css" />
+        <style type="text/css">
+
+         .fixed-panel {
+                min-height: 400px;
+                max-height: 400px;
+		background-color: #19313c;
+		color: white;
+                overflow: auto;
+
+
+            }
+            .media-list {
+
+           		overflow: auto;
+			clear: both;
+			display: table;
+			overflow-wrap: break-word;
+			word-wrap: break-word;
+			word-break: normal;
+			line-break: strict;		
+           }
+			.panel {
+			margin-bottom: 20px;
+			background-color: #fff;
+			border: 6px solid transparent;
+			border-radius: 25px;
+			-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+			box-shadow: 0 1px 1px rgba(0,0,0,.05);
+			}
+			.panel-info {
+			border-color: #0c2735;
+			}
+			.panel-info>.panel-heading {
+			color: #fff;
+			background-color: #0c2735;
+			border-color: #0c2735;
+			}
+			.panel-footer {
+			padding: 10px 15px;
+			background-color: #0c2735;
+			border-top: 1px solid #0c2735;
+			border-bottom-right-radius: 3px;
+			border-bottom-left-radius: 3px;
+			}
+			
+			body {
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#608f95+0,008588+9,0c2449+52,1a1e3b+100 */
+			background: rgb(96,143,149); /* Old browsers */
+			background: -moz-linear-gradient(-45deg, rgba(96,143,149,1) 0%, rgba(0,133,136,1) 9%, rgba(12,36,73,1) 52%, rgba(26,30,59,1) 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(-45deg, rgba(96,143,149,1) 0%,rgba(0,133,136,1) 9%,rgba(12,36,73,1) 52%,rgba(26,30,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(135deg, rgba(96,143,149,1) 0%,rgba(0,133,136,1) 9%,rgba(12,36,73,1) 52%,rgba(26,30,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#608f95', endColorstr='#1a1e3b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+			}
+
+        </style>
+    
+<body>
+<div id="header" style="position:relative;text-align:center;">
+     <div id="sampleLink" style="position:absolute; top:0px; right:0px; >Link</div>
+     <h1 style="text-align:center;">Heading</h1>
+</div>
+        <div class="container background-color: rgb(255,0,255);">
+              <div class="row">
+                <h3 class="text-center"><strong><font color="white"> SKIT College ChatBot!!! </font></h3>
+                <h3 class="text-center"><strong><font color="white"> </br> </font></h3>
+
+
+
+	<head>
+        <title>Chat Window</title>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link type="text/css" rel="stylesheet" href="static/style.css" />
+    </head>
+
+  <body>
+
+<div class="col-md-8 col-md-offset-3">
+<!--  	<div class="columnsContainer"> -->
+
+	  	<div class="leftColumn">
+
+            <div id="formwrapper">
+                <div id="menu">
+                    <p class="welcome">Chat Window<b></b></p>
+                    <div style="clear:both"></div>
+                </div>
+
+                <div id="chatbox"></div>
+
+                <form name="message" action="">
+                    <input name="usermsg" type="text" id="usermsg" size="100" />
+                    <input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+                </form>
+            </div>
+	  	</div>
+
+
+	  	<div class="rightColumn">
+            <div id="questionswrapper">
+    	  		<p class="welcome">Popular Questions<b></b></p>
+                <ul>
+                    <li class="question"><a href="#">previous question papers?</a></li>
+                    <li class="question"><a href="#">What are you?</a></li>
+                    <li class="question"><a href="#">1st year lecture notes</a></li>
+                    <li class="question"><a href="#">2nd year 1st sem lecture notes</a></li>
+                    <li class="question"><a href="#">2nd year 2nd sem lecture notes</a></li>
+                    <li class="question"><a href="#">3rd year 1st sem lecture notes</a></li>
+                    <li class="question"><a href="#">3rd year 2nd sem lecture notes</a></li>
+                    <li class="question"><a href="#">4th year 1st sem lecture notes</a></li>
+                    <li class="question"><a href="#">4th year 2nd sem lecture notes</a></li>
+                    <li class="question"><a href="#">open calculator</a></li>
+                    <li class="question"><a href="#">open google</a></li>
+                    <li class="question"><a href="#">open youtube </a></li>
+                   <!-- <li class="question"><a href="#"></a></li>
+                    <li class="question"><a href="#">What are you?</a></li>
+                    <li class="question"><a href="#">Where are you?</a></li>
+                    <li class="question"><a href="#">previous question papers?</a></li>
+                    <li class="question"><a href="#">What are you?</a></li>
+                    <li class="question"><a href="#">Where are you?</a></li>
+                    <li class="question"><a href="#">previous question papers?</a></li>
+                    <li class="question"><a href="#">What are you?</a></li>
+                    <li class="question"><a href="#">Where are you?</a></li>
+                    <li class="question"><a href="#">previous question papers?</a></li>
+                    <li class="question"><a href="#">What are you?</a></li> -->
+                </ul>
+            </div>
+	  	</div>
+
+  	</div>
+</div>
+    <footer>
+<div class="col-md-5 col-md-offset-3">
+        <a href="https://github.com/keiffster/program-y"><font color="white">SKIT College Chatbot on GitHub</a> |
+        <a href="https://github.com/keiffster/program-y/wiki"><font color="white">Documentation</br></a> |
+        <a href="http://www.keithsterling.com"><font color="white">Meet the Authors</a> |
+ 
+  	</footer>
+
+    <script type="text/javascript" src="static/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="static/y-bot.js"></script>
+
+  </body>
+
+
+ <!--   <head>
+        <title>Y-Bot Chat Window</title>
+        <link type="text/css" rel="stylesheet" href="static/style.css" />
+    </head>
+    <body>
+        <br />
+        <div id="header">
+            <h1>Welcome to Program-Y Demonstration</h1>
+            <h3>A Fully 2.x AIML Complaint Python 3 based Open Source Chatbot Framework</h3>
+        </div>
+        <div>
+            <div id="wrapper">
+                <div id="menu">
+                    <p class="welcome">Y-Bot Webchat Demonstration<b></b></p>
+                    <div style="clear:both"></div>
+                </div>
+
+                <div id="chatbox"></div>
+
+                <form name="message" action="">
+                    <input name="usermsg" type="text" id="usermsg" size="63" />
+                    <input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+                </form>
+            </div>
+            <div id="wrapper2">
+                <h4>Popular Questions</h4>
+                <ul>
+                    <li class="question"><a href="#">Who are you?</a></li>
+                    <li class="question"><a href="#">What are you?</a></li>
+                    <li class="question"><a href="#">Where are you?</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="footer">
+            <br/>
+            <a href="https://github.com/keiffster/program-y">Program-Y on GitHub</a> |
+            <a href="https://github.com/keiffster/program-y/wiki">Documentation</a> |
+            <a href="http://www.keithsterling.com">Meet the Author</a> |
+            <a href="http://servusai.com">Professional Services</a>
+        </div>
+
+        <script type="text/javascript" src="static/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="static/y-bot.js"></script>
+    </body> -->
+
+
+
+</html>

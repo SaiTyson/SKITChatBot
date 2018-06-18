@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern># PREVIOUS # QUESTION # PAPERS #</pattern>
+    <template><a href="https://www.manaresults.co.in/JNTUA/jntua-b-tech-old-previous-question-papers.php" target="_blank">Kindly visit</a></template>
+  </category>
+</aiml>

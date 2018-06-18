@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <aiml>
+  <category>
+      <pattern># Previous year question papers #</pattern>
+      <template>Shall i list out <set name = "topic">Previous year question papers</set></template>  
+   </category>
+   <topic name = "Previous year question papers">
+   <category>
+      <pattern>YES</pattern>
+      <that>Shall i list out Previous year question papers</that>
+       <template>
+           <li><a href="https://www.manaresults.co.in/JNTUA/jntua-b-tech-old-previous-question-papers.php" target="_blank">CSE</a></li>
+           <li><a href="https://www.manaresults.co.in/JNTUA/jntua-b-tech-old-previous-question-papers.php" target="_blank">ECE</a></li>
+           <li><a href="https://www.manaresults.co.in/JNTUA/jntua-b-tech-old-previous-question-papers.php" target="_blank">EEE</a></li>
+           <li><a href="https://www.manaresults.co.in/JNTUA/jntua-b-tech-old-previous-question-papers.php" target="_blank">CIVIL</a></li>
+           <li><a href="https://www.manaresults.co.in/JNTUA/jntua-b-tech-old-previous-question-papers.php" target="_blank">MECH</a></li>
+           <li><a href="https://www.manaresults.co.in/JNTUA/jntua-b-tech-old-previous-question-papers.php" target="_blank">IT</a></li>
+       </template>
+  </category> 
+  <category>
+      <pattern>NO</pattern>
+      <that>Shall i list out Previous year question papers</that>
+      <template>ok, as you command</template>
+  </category>
+</topic>
+</aiml>
+

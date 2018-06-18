@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml>
+<category>
+<pattern>IS<set>branch</set>A BRANCH</pattern>
+<template>Yes, <star/> is a branch in SKIT College.</template>
+</category>
+<category>
+<pattern>IS<set>branch</set>A BRANCH IN SKIT</pattern>
+<template>Yes, <star/> is a branch in SKIT College.</template>
+</category>
+
+<category>
+<pattern>IS * BRANCH IN SKIT</pattern>
+<template>No, <star/> branch is not in SKIT College.</template>
+</category>
+
+
+</aiml>

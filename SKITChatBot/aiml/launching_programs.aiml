@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml>
+ <!-- Launching programs -->
+
+    <category>
+        <pattern>OPEN RHYTHMBOX</pattern>
+        <template>
+             <random>
+               <li>Sure thing!</li>
+               <li>Right away, sir!</li>
+               <li>On it!</li>
+            </random>
+            <system> bash -c "rhythmbox &amp;> /dev/null &amp;" </system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OPEN RHYTHMBOX *</pattern>
+        <template>
+             <srai>OPEN RHYTHMBOX</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN RHYTHMBOX *</pattern>
+        <template>
+             <srai>OPEN RHYTHMBOX</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* OPEN RHYTHMBOX</pattern>
+        <template>
+             <srai>OPEN RHYTHMBOX</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>OPEN CALCULATOR</pattern>
+        <template>
+             <random>
+               <li>Sure thing!</li>
+               <li>Right away, sir!</li>
+               <li>On it!</li>
+            </random>
+            <system> bash -c "gnome-calculator &amp;> /dev/null &amp;" </system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OPEN CALCULATOR *</pattern>
+        <template>
+             <srai>OPEN CALCULATOR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN CALCULATOR *</pattern>
+        <template>
+             <srai>OPEN CALCULATOR</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* OPEN CALCULATOR</pattern>
+        <template>
+             <srai>OPEN CALCULATOR</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>OPEN VLC</pattern>
+        <template>
+             <random>
+               <li>Sure thing!</li>
+               <li>Right away, sir!</li>
+               <li>On it!</li>
+            </random>
+            <system> bash -c "vlc &amp;> /dev/null &amp;"</system>
+        </template>
+        
+    </category>
+
+    <category>
+        <pattern>* OPEN VLC *</pattern>
+        <template>
+             <srai>OPEN VLC</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN VLC *</pattern>
+        <template>
+             <srai>OPEN VLC</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* OPEN VLC</pattern>
+        <template>
+             <srai>OPEN VLC</srai>
+        </template>
+    </category>
+
+
+
+
+    <category>
+        <pattern>OPEN FIREFOX</pattern>
+        <template>
+             <random>
+               <li>Sure thing!</li>
+               <li>Right away, sir!</li>
+               <li>On it!</li>
+            </random>
+            <system> bash -c "firefox &amp;> /dev/null &amp;"</system>
+        </template>
+        
+    </category>
+
+    <category>
+        <pattern>* OPEN FIREFOX *</pattern>
+        <template>
+             <srai>OPEN FIREFOX</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN FIREFOX *</pattern>
+        <template>
+             <srai>OPEN FIREFOX</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* OPEN FIREFOX</pattern>
+        <template>
+             <srai>OPEN FIREFOX</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>OPEN CHROMIUM</pattern>
+        <template>
+             <random>
+               <li>Sure thing!</li>
+               <li>Right away, sir!</li>
+               <li>On it!</li>
+            </random>
+            <system> bash -c "chromium-browser 'www.google.com' &amp;> /dev/null &amp;"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OPEN CHROMIUM *</pattern>
+        <template>
+             <srai>OPEN CHROMIUM</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN CHROMIUM *</pattern>
+        <template>
+             <srai>OPEN CHROMIUM</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* OPEN CHROMIUM</pattern>
+        <template>
+             <srai>OPEN CHROMIUM</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>OPEN BROWSER</pattern>
+        <template>
+             <srai>OPEN FIREFOX</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OPEN BROWSER *</pattern>
+        <template>
+             <srai>OPEN FIREFOX</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN BROWSER *</pattern>
+        <template>
+             <srai>OPEN FIREFOX</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* OPEN BROWSER</pattern>
+        <template>
+             <srai>OPEN FIREFOX</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN FACEBOOK</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> firefox "http://www.facebook.com"</system>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>OPEN GOOGLE</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> google-chrome "http://www.google.com"</system>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>GOOGLE *</pattern>
+        <template>
+             <random>
+               <li>Sure thing!</li>
+               <li>Right away, sir!</li>
+               <li>On it!</li>
+            </random>
+            <system> google-chrome "http://www.google.com/search?q=<star/>"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEARCH FOR * ON GOOGLE</pattern>
+        <template>
+             <srai>GOOGLE <star/></srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>SEARCH GOOGLE FOR *</pattern>
+        <template>
+             <srai>GOOGLE <star/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEARCH YOUTUBE FOR *</pattern>
+        <template>
+             <srai>YOUTUBE <star/></srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SEARCH FOR * ON YOUTUBE</pattern>
+        <template>
+             <srai>YOUTUBE <star/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>YOUTUBE *</pattern>
+        <template>
+             <random>
+               <li>Sure thing!</li>
+               <li>Right away, sir!</li>
+               <li>On it!</li>
+            </random>
+            <system> google-chrome "https://www.youtube.com/results?search_query=<star/>"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN YOUTUBE</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> google-chrome "http://www.youtube.com"</system>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>GOOGLE MAPS *</pattern>
+        <template>
+             <random>
+               <li>Sure thing!</li>
+               <li>Right away, sir!</li>
+               <li>On it!</li>
+            </random>
+            <system> firefox "https://www.google.co.in/maps/search/<star/>"</system>
+        </template>
+    </category>
+
+     <category>
+        <pattern>SEARCH FOR * ON GOOGLE MAPS</pattern>
+        <template>
+             <srai>GOOGLE MAPS <star/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEARCH FOR * IN GOOGLE MAPS</pattern>
+        <template>
+             <srai>GOOGLE MAPS <star/></srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PLAY SONG *</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> google-chrome "<system> python youtube.py "<star/>"</system>"</system>
+        </template>
+    </category>
+    <category>
+        <pattern>TALK WITH SKITCB</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> gnome-terminal --tab -e "python script.py voice" </system>
+        </template>
+    </category>
+    <category>
+        <pattern>TALK WITH SKITCB</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> gnome-terminal --tab -e "python script.py voice" </system>
+        </template>
+    </category>
+    <category>
+        <pattern>TALK WITH SKITCHATBOT</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> gnome-terminal --tab -e "python script.py voice" </system>
+        </template>
+    </category>
+    <category>
+        <pattern># TALK # WITH # SKIT # CHAT # BOT #</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> gnome-terminal --tab -e "python script.py voice" </system>
+        </template>
+    </category>
+    <category>
+        <pattern>SPEAK WITH SKITCB</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> gnome-terminal --tab -e "python script.py voice" </system>
+        </template>
+    </category>
+    <category>
+        <pattern>SPEAK WITH SKITCHATBOT</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> gnome-terminal --tab -e "python script.py voice" </system>
+        </template>
+    </category>
+    <category>
+        <pattern># SPEAK # WITH # SKIT # CHAT # BOT #</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> gnome-terminal --tab -e "python script.py voice" </system>
+        </template>
+    </category>
+    <category>
+        <pattern>TALK SKITCB</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> gnome-terminal --tab -e "python script.py voice" </system>
+        </template>
+    </category>
+    <category>
+        <pattern>TALK SKITCHATBOT</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> gnome-terminal --tab -e "python script.py voice" </system>
+        </template>
+    </category>
+    <category>
+        <pattern># TALK # SKIT # CHAT # BOT #</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> gnome-terminal --tab -e "python script.py voice" </system>
+        </template>
+    </category>
+    <category>
+        <pattern>SPEAK SKITCB</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> gnome-terminal --tab -e "python script.py voice" </system>
+        </template>
+    </category>
+    <category>
+        <pattern>SPEAK SKITCHATBOT</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> gnome-terminal --tab -e "python script.py voice" </system>
+        </template>
+    </category>
+    <category>
+        <pattern># SPEAK # SKIT # CHAT # BOT #</pattern>
+        <template>
+             <random>
+               <li>Sure thing! </li>
+               <li>Right away, sir! </li>
+               <li>On it! </li>
+            </random>
+            <system> gnome-terminal --tab -e "python script.py voice" </system>
+        </template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <template>Do you want me to google that for you <think><set name="username"><star /></set></think></template>
+    </category>
+
+    <category>
+        <pattern>YES</pattern>
+        <that>DO YOU WANT ME TO GOOGLE THAT FOR YOU </that>
+        <template>
+           <system> google-chrome "http://www.google.com/search?q=<get name="username" />"</system>
+        </template>
+    </category>
+    <category>
+        <pattern>NO</pattern>
+        <that>DO YOU WANT ME TO GOOGLE THAT FOR YOU</that>
+        <template>
+            OKay, As you command!
+        </template>
+    </category>
+</aiml>

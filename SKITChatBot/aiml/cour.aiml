@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml>
+
+<category>
+<pattern>IS<set>courses</set>A COURSE IN SKIT COLLEGE</pattern>
+<template>Yes, <star/> is a course in SKIT College.</template>
+</category>
+<category>
+<pattern>IS * COURSE IN SKIT COLLEGE</pattern>
+<template>No, <star/> course is not in SKIT College.</template>
+</category>
+<category>
+<pattern>IS<set>courses</set>COURSE IN SKIT COLLEGE</pattern>
+<template>Yes, <star/> is a course in SKIT College.</template>
+</category>
+<category>
+<pattern>IS * COURSE IN SKIT COLLEGE</pattern>
+<template>No, <star/> course is not in SKIT College.</template>
+</category>
+
+ <category>
+<pattern>IS<set>courses</set>A COURSE IN SKIT</pattern>
+<template>Yes, <star/> is a course in SKIT College.</template>
+</category>
+<category>
+<pattern>IS * COURSE IN SKIT</pattern>
+<template>No, <star/> course is not in SKIT College.</template>
+</category>
+</aiml>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<aiml>
+<!-- basic_chat.aiml -->
+
+     <category>
+        <pattern>HELLO *</pattern>
+        <template>
+            Hello, sir!
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>SAY WITH ME *</pattern>
+        <template>
+            <star/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>REPEAT *</pattern>
+        <template>
+            <star/>
+        </template>
+    </category>
+
+   <category>
+        <pattern>REPEAT AFTER ME *</pattern>
+        <template>
+            <star/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SAY *</pattern>
+        <template>
+            <star/>
+        </template>
+    </category>
+    <category>
+        <pattern># HI #</pattern>
+        <template>
+            Hi, How can i help you today
+        </template>
+    </category>
+    <category>
+        <pattern># HELLO #</pattern>
+        <template>
+            Hi, How can i help you today
+        </template>
+    </category>
+    <category>
+        <pattern># HEY #</pattern>
+        <template>
+            Hi, How can i help you today
+        </template>
+    </category>
+
+    <category>
+        <pattern># WHAT # ARE # YOU #</pattern>
+        <template>
+            I'm intelligent chatbot specially tailored for SKIT College Institution purpose. So would you like to chat with me.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO CREATED YOU</pattern>
+        <template>
+            SKIT College CSE Department
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO MADE YOU</pattern>
+        <template>
+            SKIT College CSE Department
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO IS YOUR CREATOR</pattern>
+        <template>
+            SKIT College CSE Department
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT TIME IS IT</pattern>
+        <template>
+            The time is <system>date "+%l %M %P"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS THE TIME</pattern>
+        <template>
+            <srai>WHAT TIME IS IT</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>SYSTEM STATUS</pattern>
+        <template>
+            All systems are at 100 percent. Battery <system>upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep -E "percentage"</system>. Battery <system>upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep -E "state"</system>. <system>ps -ef -C command_name --no-headers | wc -l</system>
+            processes are currently running.
+        </template>
+    </category>
+
+     <category>
+        <pattern>* SYSTEM STATUS *</pattern>
+        <template>
+            <srai>SYSTEM STATUS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SYSTEM STATUS</pattern>
+        <template>
+            <srai>SYSTEM STATUS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SYSTEM STATUS *</pattern>
+        <template>
+            <srai>SYSTEM STATUS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SYSTEM REPORT *</pattern>
+        <template>
+            <srai>SYSTEM STATUS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SYSTEM REPORT</pattern>
+        <template>
+            <srai>SYSTEM STATUS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SYSTEM REPORT *</pattern>
+        <template>
+            <srai>SYSTEM STATUS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>
+            I am robot, i am always fine, sir. <srai>SYSTEM STATUS</srai>
+        </template>
+    </category>
+
+ 
+</aiml>
