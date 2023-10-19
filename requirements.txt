@@ -4,7 +4,7 @@ python-dateutil==2.6.1
 beautifulsoup4==4.6.0
 lxml==3.8.0
 wikipedia==1.4.0
-PyYAML==3.12
+PyYAML==5.4
 redis==2.10.6
 aiml
 SpeechRecognition
